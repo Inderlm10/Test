@@ -1,0 +1,58 @@
+{
+  "searchTerms": [
+    {
+      "term": "Java programming",
+      "expectedResult": "Java programming",
+      "category": "programming"
+    },
+    {
+      "term": "Selenium WebDriver",
+      "expectedResult": "Selenium WebDriver",
+      "category": "automation"
+    },
+    {
+      "term": "Test automation framework",
+      "expectedResult": "Test automation framework",
+      "category": "testing"
+    },
+    {
+      "term": "Web development",
+      "expectedResult": "Web development",
+      "category": "development"
+    },
+    {
+      "term": "Machine learning",
+      "expectedResult": "Machine learning",
+      "category": "ai"
+    }
+  ],
+  "invalidSearchTerms": [
+    {
+      "term": "",
+      "expectedResult": "Google",
+      "category": "empty"
+    },
+    {
+      "term": "   ",
+      "expectedResult": "Google",
+      "category": "whitespace"
+    }
+  ],
+  "specialCharacters": [
+    {
+      "term": "Java & Selenium @ 2024",
+      "expectedResult": "Java",
+      "category": "special"
+    },
+    {
+      "term": "C++ programming",
+      "expectedResult": "C++",
+      "category": "special"
+    },
+    {
+      "term": "Python 3.x",
+      "expectedResult": "Python",
+      "category": "special"
+    }
+  ]
+} 
